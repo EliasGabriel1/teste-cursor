@@ -1,8 +1,6 @@
-'use strict';
-
 const cursor = document.querySelector('.cursor');
 const follower = document.querySelector('.cursor-follower');
-const year = document.querySelectorAll('picture img');
+const year = document.querySelectorAll('.card figure img');
 
 var posX = 0, posY = 0, mouseX = 0, mouseY = 0;
 
